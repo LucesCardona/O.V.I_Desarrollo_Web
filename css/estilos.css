@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+
+*{
+        font-family: angsa, franklin;
+
+}
+
+/*********Cabecera***************/
+h2{
+    text-align: center;
+}
+header{
+    background-image: url(../img/cabecera.png);
+    height: 150px;
+}
+/******************************/
+/**********Menú****************/
+ul {
+    list-style-type: none;
+    background-color: #B3B3B3;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2px;
+    color: blue;
+    overflow: hidden;
+    border-width: 0.1px;
+    border-bottom: solid;
+    border-color: #808080;
+}
+
+li {
+    float: left;
+
+
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #333333;
+    color: white;
+}
+li a:focus {
+
+}
+/******************************/
+/************Contenido*********/
+#contPrincipal{
+    margin-left: 5%;
+    margin-right: 5%;
+    overflow: hidden;
+}
+section#Tema{
+    width: 68%;
+    margin: 5px;
+}
+aside#noticias {
+    float: right;
+    width: 30%;
+    margin: 0px;
+    padding: 0px;
+    
+}
+footer{
+    position:fixed;
+    background-color: #333333;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    color: white;
+    text-align: center;
+
+}
