@@ -19,7 +19,7 @@ h2{
 }
 header{
     background-image: url(../img/cabecera.png);
-    height: 150px;
+    height: 150px; */
 }
 /******************************/
 /**********Menú****************/
@@ -59,26 +59,29 @@ li a:focus {
 }
 /******************************/
 /************Contenido*********/
-#contPrincipal{
+iframe#video {
+    margin-left: 40px;
+}
+.contPrincipal{
     margin-left: 5%;
     margin-right: 5%;
-    height: 400px;
-    overflow: hidden;
     border-left: solid;
     border-right: solid;
     border-color: #F47920;
     margin-top: 10px;
+    overflow: hidden;
 }
 section#Tema{
-    width: 68%;
+    width: 60%;
+    float: left;
+    margin: 10px;
 }
+
 aside#noticias {
     float: right;
-    width: 30%;
-    height: 100%;
+    margin-right: 8px;
+    width: 35%;
     background-color: #333333;
-    overflow-y: scroll;
-
 }
 footer{
     position:fixed;
@@ -97,19 +100,8 @@ h2{
     margin: 0;
     color: white;
 }
+h1{
+    margin: 5px;
+    text-align: center;
+}
 
-
-/**********Barra de desplazamiento************/
-::-webkit-scrollbar {
-    width: 12px;
-}
-::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px; 
-    border-radius: 10px;
-    background: #808080;
-}
-::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px;
-    background: #333333;
-}
