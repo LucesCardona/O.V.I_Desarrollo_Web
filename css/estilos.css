@@ -74,6 +74,13 @@ iframe#video{
     margin-bottom: 40px;
 }
 
+iframe#juego{
+    width: 1180px;
+    height: 500px;
+    margin-bottom: 40px;
+
+}
+
 .contPrincipal{
     margin-left: 5%;
     margin-right: 5%;
@@ -87,6 +94,7 @@ section#Tema{
     width: 60%;
     float: left;
     margin: 10px;
+
 }
 
 aside#noticias {
