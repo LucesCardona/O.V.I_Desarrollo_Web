@@ -59,7 +59,7 @@ header{
 }
 /******************************/
 /************Contenido*********/
-iframe#video {
+iframe#videoindex {
     margin-left: 40px;
 }
 
@@ -68,7 +68,11 @@ iframe#lectura{
     height: 500px;
 }
 
-
+iframe#video{
+    height: 400px;
+    width: 720px;
+    margin-bottom: 40px;
+}
 
 .contPrincipal{
     margin-left: 5%;
